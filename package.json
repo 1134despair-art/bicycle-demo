@@ -1,0 +1,41 @@
+{
+  "name": "bicycle-demo",
+  "private": true,
+  "version": "1.0.3",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "build:prod": "npm run build",
+    "preview": "vite preview",
+    "android:assets": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-android-assets.ps1",
+    "android:sync": "npm run build && cap sync android",
+    "android:open": "cap open android",
+    "android:apk": "npm run android:sync && cd android && gradlew.bat assembleDebug",
+    "android:bundle": "npm run android:sync && cd android && gradlew.bat bundleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.0",
+    "@capacitor/app": "^8.0.0",
+    "@capacitor/core": "^8.5.0",
+    "@unocss/preset-attributify": "^66.7.5",
+    "@unocss/preset-icons": "^66.7.5",
+    "@unocss/preset-uno": "^66.7.5",
+    "@unocss/reset": "^66.7.5",
+    "@unocss/vite": "^66.7.5",
+    "lucide-vue-next": "^1.0.0",
+    "pinia": "^3.0.4",
+    "unocss": "^66.7.5",
+    "vue": "^3.5.39",
+    "vue-router": "^5.1.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.0",
+    "@types/node": "^24.13.2",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1",
+    "vue-tsc": "^3.3.5"
+  }
+}

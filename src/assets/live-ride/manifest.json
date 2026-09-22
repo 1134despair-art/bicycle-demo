@@ -1,0 +1,137 @@
+{
+  "feature": "live-ride",
+  "generatedFrom": "docs/design-system/live-ride-ui",
+  "iconSize": {
+    "width": 96,
+    "height": 96,
+    "format": "png",
+    "transparent": true
+  },
+  "backgroundSize": {
+    "width": 780,
+    "height": 908,
+    "format": "png",
+    "scale": "2x"
+  },
+  "icons": [
+    {
+      "file": "icons/icon-arrow-left.png",
+      "color": "#1d1d1f",
+      "usage": "返回"
+    },
+    {
+      "file": "icons/icon-settings.png",
+      "color": "#1d1d1f",
+      "usage": "骑行设置"
+    },
+    {
+      "file": "icons/icon-map-plus.png",
+      "color": "#374151",
+      "usage": "地图放大"
+    },
+    {
+      "file": "icons/icon-map-minus.png",
+      "color": "#374151",
+      "usage": "地图缩小"
+    },
+    {
+      "file": "icons/icon-map-locate.png",
+      "color": "#374151",
+      "usage": "当前位置"
+    },
+    {
+      "file": "icons/icon-map-layers.png",
+      "color": "#374151",
+      "usage": "地图图层"
+    },
+    {
+      "file": "icons/icon-map-layers-active.png",
+      "color": "#ffffff",
+      "usage": "地图图层选中"
+    },
+    {
+      "file": "icons/icon-play-white.png",
+      "color": "#ffffff",
+      "usage": "开始或继续骑行"
+    },
+    {
+      "file": "icons/icon-pause-dark.png",
+      "color": "#374151",
+      "usage": "暂停骑行"
+    },
+    {
+      "file": "icons/icon-stop-white.png",
+      "color": "#ffffff",
+      "usage": "结束骑行按钮"
+    },
+    {
+      "file": "icons/icon-stop-danger.png",
+      "color": "#e44747",
+      "usage": "结束骑行提示"
+    },
+    {
+      "file": "icons/icon-turn-left.png",
+      "color": "#ff7f00",
+      "usage": "导航左转"
+    },
+    {
+      "file": "icons/icon-chevron-right.png",
+      "color": "#969ca2",
+      "usage": "进入下一层"
+    },
+    {
+      "file": "icons/icon-check-white.png",
+      "color": "#ffffff",
+      "usage": "选中状态"
+    },
+    {
+      "file": "icons/icon-check-success.png",
+      "color": "#48d095",
+      "usage": "保存成功"
+    },
+    {
+      "file": "icons/icon-alert-warning.png",
+      "color": "#ef8b17",
+      "usage": "警告状态"
+    },
+    {
+      "file": "icons/icon-alert-danger.png",
+      "color": "#e44747",
+      "usage": "危险状态"
+    },
+    {
+      "file": "icons/icon-wifi-off.png",
+      "color": "#ef8b17",
+      "usage": "离线骑行"
+    },
+    {
+      "file": "icons/icon-route.png",
+      "color": "#2f80ed",
+      "usage": "偏离路线"
+    },
+    {
+      "file": "icons/icon-sensor-disconnected.png",
+      "color": "#e44747",
+      "usage": "传感器断连"
+    },
+    {
+      "file": "icons/icon-upload.png",
+      "color": "#ff7f00",
+      "usage": "数据上传"
+    }
+  ],
+  "backgrounds": [
+    {
+      "file": "backgrounds/map-route-light@2x.png",
+      "usage": "常规地图"
+    },
+    {
+      "file": "backgrounds/map-route-satellite@2x.png",
+      "usage": "卫星地图"
+    },
+    {
+      "file": "backgrounds/map-route-offline@2x.png",
+      "usage": "离线地图"
+    }
+  ]
+}
