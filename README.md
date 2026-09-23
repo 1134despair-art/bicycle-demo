@@ -4,7 +4,7 @@ Vue 3、TypeScript、Vite 移动端原型。演示流程使用前端数据，无
 
 ## 本地运行
 
-使用 Node.js 20.19+ 或兼容版本：
+使用 Node.js 20.17+ 或兼容版本：
 
 ```bash
 npm install
